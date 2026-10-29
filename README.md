@@ -46,7 +46,7 @@ metro, sequentially, and never again while `data/raw/osm_*.json` exists.
 
 | Requirement | Where |
 |---|---|
-| Interactive prototype | `site/index.html` (static; optional GitHub Pages, see HANDOFF.md) |
+| Interactive prototype | `site/index.html` (static; also served on GitHub Pages) |
 | Demo video | shot list in [DEMO-SCRIPT.md](DEMO-SCRIPT.md) |
 | One-page project description PDF | [docs/ER-or-Urgent-Care.pdf](docs/ER-or-Urgent-Care.pdf), built by `eruc/onepager.py`, a test asserts it is exactly one page |
 | GitHub repo | this repository |
