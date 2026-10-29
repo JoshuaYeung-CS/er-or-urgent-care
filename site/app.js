@@ -126,9 +126,12 @@
   }
 
   // ---------- results ----------
+  // Horizontal positions are percentages, so text never stretches on narrow screens.
   function bandSvg(median, sigma, scaleMax) {
-    const W = 600, H = 56, L = 8, R = 8, y = 18, h = 14;
-    const x = (m) => L + (Math.min(m, scaleMax) / scaleMax) * (W - L - R);
+    const y = 18, h = 14, L = 3, R = 3;
+    const px = (m) => L + (Math.min(m, scaleMax) / scaleMax) * (100 - L - R);
+    const x = (m) => px(m).toFixed(2) + "%";
+    const w = (a, b) => (px(b) - px(a)).toFixed(2) + "%";
     const wide = E.lnInterval(median, SIG.high, 0.8);
     const cur = E.lnInterval(median, sigma, 0.8);
     let ticks = "";
@@ -139,9 +142,9 @@
     }
     const label = "Assumed middle 80 percent of visits: " + fmtMin(cur[0]) + " to " + fmtMin(cur[1]) +
       " at sigma " + sigma.toFixed(2) + "; median " + fmtMin(median) + ".";
-    return '<svg class="band" viewBox="0 0 ' + W + " " + H + '" preserveAspectRatio="none" role="img" aria-label="' + esc(label) + '">' +
-      '<rect x="' + x(wide[0]) + '" y="' + y + '" width="' + (x(wide[1]) - x(wide[0])) + '" height="' + h + '" rx="3" fill="var(--band)"/>' +
-      '<rect x="' + x(cur[0]) + '" y="' + (y + 3) + '" width="' + (x(cur[1]) - x(cur[0])) + '" height="' + (h - 6) + '" rx="2" fill="var(--band-inner)"/>' +
+    return '<svg class="band" role="img" aria-label="' + esc(label) + '">' +
+      '<rect x="' + x(wide[0]) + '" y="' + y + '" width="' + w(wide[0], wide[1]) + '" height="' + h + '" rx="3" fill="var(--band)"/>' +
+      '<rect x="' + x(cur[0]) + '" y="' + (y + 3) + '" width="' + w(cur[0], cur[1]) + '" height="' + (h - 6) + '" rx="2" fill="var(--band-inner)"/>' +
       '<line x1="' + x(median) + '" x2="' + x(median) + '" y1="' + (y - 4) + '" y2="' + (y + h + 2) + '" stroke="var(--text)" stroke-width="2.5"/>' +
       '<text x="' + x(median) + '" y="' + (y - 7) + '" text-anchor="middle" style="fill:var(--text);font-weight:600">median ' + fmtShort(median) + "</text>" +
       ticks + "</svg>";

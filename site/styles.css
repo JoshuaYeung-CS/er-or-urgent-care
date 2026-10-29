@@ -118,7 +118,7 @@ button { background: var(--brand); color: var(--brand-ink); font-weight: 600; }
 .facts div { border-top: 1px solid var(--line); padding-top: 4px; }
 .facts b { display: block; font-size: 0.78rem; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }
 .assume { font-size: 0.75rem; color: var(--amber); font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
-svg.band { width: 100%; height: 56px; display: block; margin-top: 8px; }
+svg.band { width: 100%; height: 56px; display: block; margin-top: 8px; overflow: visible; color: var(--muted); }
 svg.band text { fill: var(--muted); font-size: 11px; }
 .tag { display: inline-block; font-size: 0.75rem; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; margin-right: 4px; color: var(--muted); }
 
