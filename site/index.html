@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ER or Urgent Care?</title>
+<meta name="description" content="Nearby hospital emergency-department times from public CMS data, with honest uncertainty, plus nearby urgent care and red-flag guidance.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="emergency-strip" role="note">
+  <strong>Emergency?</strong> Call <a href="tel:911">911</a>. Thinking about hurting yourself? Call or text <a href="tel:988">988</a>.
+  This page is information, not medical advice.
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>ER or Urgent Care?</h1>
+    <p class="lede">Check your symptoms against red-flag signs, then see how long a typical visit takes at the emergency departments near you, using public hospital data with the uncertainty spelled out.</p>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <section class="card step" aria-labelledby="where-h">
+    <h2 id="where-h"><span class="num" aria-hidden="true">1</span> Where are you?</h2>
+    <form id="zip-form" class="zip-row" novalidate>
+      <label for="zip">US ZIP code</label>
+      <input id="zip" name="zip" inputmode="numeric" autocomplete="postal-code" maxlength="10" placeholder="e.g. 14850" aria-describedby="zip-help zip-err">
+      <button type="submit">Show nearby care</button>
+    </form>
+    <p id="zip-help" class="hint">Or try a demo area (urgent-care listings are cached only for these):</p>
+    <div id="metros" class="chips" role="group" aria-label="Demo areas"></div>
+    <p id="zip-err" class="error" role="alert" hidden></p>
+  </section>
+
+  <section class="card step" aria-labelledby="what-h">
+    <h2 id="what-h"><span class="num" aria-hidden="true">2</span> What is going on? <span class="sub">(check any that apply)</span></h2>
+    <div class="checklists">
+      <fieldset class="group g-911">
+        <legend>Call 911 now</legend>
+        <div id="list-call911"></div>
+      </fieldset>
+      <fieldset class="group g-er">
+        <legend>Go to an emergency department</legend>
+        <div id="list-er"></div>
+      </fieldset>
+      <fieldset class="group g-uc">
+        <legend>Usually fine for urgent care</legend>
+        <div id="list-urgent"></div>
+      </fieldset>
+    </div>
+    <p class="hint">Checklist paraphrased from MedlinePlus (U.S. National Library of Medicine), <a href="https://medlineplus.gov/ency/patientinstructions/000593.htm">When to use the emergency room</a>. Not sure? Call your doctor's office or your insurer's nurse line.</p>
+  </section>
+
+  <section id="verdict" class="verdict" aria-live="polite"></section>
+
+  <section id="results" class="results" hidden aria-labelledby="results-h">
+    <div class="results-head">
+      <h2 id="results-h">Near <span id="place"></span></h2>
+      <div class="sigma-box">
+        <label for="sigma">Assumed spread of visit times, σ = <output id="sigma-out">0.60</output></label>
+        <input id="sigma" type="range" min="0.3" max="1.0" step="0.05" value="0.6" aria-describedby="sigma-help">
+        <p id="sigma-help" class="hint">CMS publishes only a median, never a spread. σ is my assumption, not data: at σ = 0.6 a middle-80% visit runs from about half to about twice the median. Move it to see how much the ranges depend on it.</p>
+      </div>
+    </div>
+    <div class="cols">
+      <div>
+        <h3>Emergency departments</h3>
+        <p class="hint">Sorted by straight-line ZIP-centroid distance (from the center of your ZIP to the center of the hospital's ZIP), not drive time.</p>
+        <div id="hospitals"></div>
+        <p id="hidden-note" class="hint"></p>
+      </div>
+      <div>
+        <h3>Urgent care</h3>
+        <p class="hint"><strong>No public source publishes urgent-care wait times</strong>, so none are shown. Listings come from OpenStreetMap and may be incomplete or out of date: call ahead.</p>
+        <div id="urgent"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card explainer" id="method" aria-labelledby="method-h">
+    <h2 id="method-h">How to read these numbers</h2>
+    <details open>
+      <summary>What the hospital number is</summary>
+      <p>CMS measure <strong>OP-18b</strong>: the <em>median</em> minutes from arriving at the emergency department to leaving it, for patients who were sent home (discharged). It excludes patients admitted to the hospital, transferred, or seen for mental-health care. Reporting period: <span class="period-op18b"></span>. Hospitals report it from a sample of cases; the case count is shown on each card.</p>
+    </details>
+    <details>
+      <summary>What it is not</summary>
+      <ul>
+        <li><strong>Not the time until you see a clinician.</strong> It is the whole visit: triage, waiting, tests, treatment, discharge.</li>
+        <li><strong>Not live.</strong> It summarizes a 12-month period that ended <span class="period-op18b-end"></span>. Tonight can be very different (time of day, flu season, a bad crash nearby).</li>
+        <li><strong>Not your time.</strong> Sicker patients are seen first. A sprained ankle may wait longer than the median; chest pain should not wait at all.</li>
+      </ul>
+    </details>
+    <details>
+      <summary>Where the ranges come from (and why they are assumptions)</summary>
+      <p>CMS publishes one number per hospital and no spread. To show what a typical spread <em>might</em> look like, I model one visit's duration as a lognormal with its median fixed at the hospital's OP-18b value and a dispersion σ that <strong>I chose</strong> (default 0.6, with 0.4 to 0.8 shown as the lighter band). The lognormal is a common right-skewed shape for durations: most visits cluster near the median and a long tail runs late. No paper is cited for σ; treat every range and every "chance over 4 hours" as conditional on it. The median itself is solid data; the range is illustration.</p>
+      <p>The "std. error of median" next to the case count is the statistical precision of the median itself (large-sample standard error of a median, m·σ·√(π / 2n)), which is small next to the visit-to-visit spread.</p>
+    </details>
+    <details>
+      <summary>Regional context</summary>
+      <p>"Shorter than X% of hospitals" ranks this hospital's OP-18b against every <em>other</em> hospital in the same state, and nationally, that reported a number (ties count half). I computed this from the CMS file: <span id="n-numeric"></span> hospitals reported a value; <span id="n-na"></span> show "Not Available" with the CMS footnote explaining why. The CMS national figure is <span id="nat-op18b"></span> min; the median across hospitals is <span id="hosp-median"></span> min (large, busy departments tend to be slower and see more patients). ED volume categories and "left before being seen" (OP-22) are from <span class="period-edv"></span>.</p>
+    </details>
+    <details>
+      <summary>Data limits</summary>
+      <ul>
+        <li>Locations are ZIP centroids from the U.S. Census 2025 ZCTA gazetteer, so distances are approximate. <span id="n-nozcta"></span> hospitals have a ZIP that is not a Census ZCTA (often a PO-box ZIP) and are left out of distance results.</li>
+        <li>Hospitals that CMS lists without emergency services are hidden from the list.</li>
+        <li>Urgent-care listings exist only for the five demo areas, from a single OpenStreetMap snapshot. Tagging varies, so some clinics are missing.</li>
+        <li>No urgent-care wait data exists publicly. I do not estimate one.</li>
+      </ul>
+    </details>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p><strong>Sources.</strong> Centers for Medicare &amp; Medicaid Services, Provider Data Catalog: "Timely and Effective Care - Hospital", "Hospital General Information", "Timely and Effective Care - National", "Footnote Crosswalk" (data.cms.gov). U.S. Census Bureau 2025 ZCTA Gazetteer. Urgent-care listings © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, available under the Open Database License. Symptom guidance paraphrased from <a href="https://medlineplus.gov/ency/patientinstructions/000593.htm">MedlinePlus</a>. Data built <span id="built"></span>.</p>
+  <p>Not medical advice. This page does not diagnose, triage, or replace a clinician. Works offline; nothing you type leaves your device.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="core.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
