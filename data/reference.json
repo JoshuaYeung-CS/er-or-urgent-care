@@ -1,0 +1,321 @@
+{
+ "built": "2026-10-28",
+ "summary": {
+  "n_hospitals": 4658,
+  "n_op18b_numeric": 4081,
+  "n_op18b_not_available": 577,
+  "n_no_zcta_match": 114,
+  "op18b_hospital_quantiles": {
+   "p10": 100.0,
+   "p25": 119.0,
+   "p50": 148.0,
+   "p75": 188.0,
+   "p90": 225.0
+  },
+  "state_medians": {
+   "AK": 130.0,
+   "AL": 147.0,
+   "AR": 129.5,
+   "AZ": 180.0,
+   "CA": 174.0,
+   "CO": 134.0,
+   "CT": 198.0,
+   "DC": 327.5,
+   "DE": 222.0,
+   "FL": 149.0,
+   "GA": 162.0,
+   "GU": 156.0,
+   "HI": 128.5,
+   "IA": 119.5,
+   "ID": 125.5,
+   "IL": 173.0,
+   "IN": 140.0,
+   "KS": 117.0,
+   "KY": 140.0,
+   "LA": 126.0,
+   "MA": 211.5,
+   "MD": 241.0,
+   "ME": 156.0,
+   "MI": 157.5,
+   "MN": 126.0,
+   "MO": 151.0,
+   "MS": 124.5,
+   "MT": 115.0,
+   "NC": 187.0,
+   "ND": 105.0,
+   "NE": 114.0,
+   "NH": 148.5,
+   "NJ": 185.0,
+   "NM": 168.0,
+   "NV": 152.0,
+   "NY": 204.0,
+   "OH": 155.0,
+   "OK": 122.0,
+   "OR": 155.5,
+   "PA": 188.0,
+   "PR": 279.0,
+   "RI": 218.5,
+   "SC": 158.0,
+   "SD": 112.0,
+   "TN": 161.0,
+   "TX": 137.0,
+   "UT": 129.0,
+   "VA": 162.0,
+   "VT": 175.0,
+   "WA": 167.0,
+   "WI": 136.0,
+   "WV": 138.5,
+   "WY": 120.0
+  },
+  "state_counts": {
+   "AK": 17,
+   "AL": 79,
+   "AR": 66,
+   "AZ": 61,
+   "CA": 267,
+   "CO": 77,
+   "CT": 25,
+   "DC": 6,
+   "DE": 6,
+   "FL": 175,
+   "GA": 123,
+   "GU": 1,
+   "HI": 20,
+   "IA": 112,
+   "ID": 38,
+   "IL": 155,
+   "IN": 107,
+   "KS": 117,
+   "KY": 82,
+   "LA": 89,
+   "MA": 54,
+   "MD": 40,
+   "ME": 30,
+   "MI": 118,
+   "MN": 120,
+   "MO": 97,
+   "MS": 68,
+   "MT": 56,
+   "NC": 94,
+   "ND": 43,
+   "NE": 83,
+   "NH": 26,
+   "NJ": 60,
+   "NM": 32,
+   "NV": 35,
+   "NY": 140,
+   "OH": 139,
+   "OK": 101,
+   "OR": 54,
+   "PA": 137,
+   "PR": 7,
+   "RI": 10,
+   "SC": 52,
+   "SD": 50,
+   "TN": 90,
+   "TX": 332,
+   "UT": 44,
+   "VA": 79,
+   "VT": 9,
+   "WA": 75,
+   "WI": 117,
+   "WV": 44,
+   "WY": 22
+  },
+  "periods": {
+   "EDV": {
+    "start": "01/01/2024",
+    "end": "12/31/2024"
+   },
+   "OP_18b": {
+    "start": "10/01/2024",
+    "end": "09/30/2025"
+   },
+   "OP_18c": {
+    "start": "10/01/2024",
+    "end": "09/30/2025"
+   },
+   "OP_22": {
+    "start": "01/01/2024",
+    "end": "12/31/2024"
+   }
+  }
+ },
+ "national": {
+  "OP_18b": {
+   "score": "162",
+   "footnote": "25, 26",
+   "start": "10/01/2024",
+   "end": "09/30/2025",
+   "name": "Average (median) time patients spent in the emergency department before leaving from the visit, excluding patients transferred to another facility or psychiatric care/mental health patients. A lower number of minutes is better"
+  },
+  "OP_18b_HIGH_MIN": {
+   "score": "202",
+   "footnote": "25, 26",
+   "start": "10/01/2024",
+   "end": "09/30/2025",
+   "name": "Average (median) time patients spent in the emergency department before leaving from the visit, excluding patients transferred to another facility or psychiatric care/mental health patients. A lower number of minutes is better (High)"
+  },
+  "OP_18b_LOW_MIN": {
+   "score": "123",
+   "footnote": "25, 26",
+   "start": "10/01/2024",
+   "end": "09/30/2025",
+   "name": "Average (median) time patients spent in the emergency department before leaving from the visit, excluding patients transferred to another facility or psychiatric care/mental health patients. A lower number of minutes is better (Low)"
+  },
+  "OP_18b_MEDIUM_MIN": {
+   "score": "165",
+   "footnote": "25, 26",
+   "start": "10/01/2024",
+   "end": "09/30/2025",
+   "name": "Average (median) time patients spent in the emergency department before leaving from the visit, excluding patients transferred to another facility or psychiatric care/mental health patients. A lower number of minutes is better (Moderate)"
+  },
+  "OP_18b_NINETIETH": {
+   "score": "100",
+   "footnote": "25, 26",
+   "start": "10/01/2024",
+   "end": "09/30/2025",
+   "name": "Top ten percent time patients spent in the emergency department before leaving from the visit, excluding patients transferred to another facility or psychiatric care/mental health patients. A lower number of minutes is better"
+  },
+  "OP_18b_VERY_HIGH_MIN": {
+   "score": "201",
+   "footnote": "25, 26",
+   "start": "10/01/2024",
+   "end": "09/30/2025",
+   "name": "Average (median) time patients spent in the emergency department before leaving from the visit, excluding patients transferred to another facility or psychiatric care/mental health patients. A lower number of minutes is better (Very High)"
+  },
+  "OP_18c": {
+   "score": "257",
+   "footnote": "25",
+   "start": "10/01/2024",
+   "end": "09/30/2025",
+   "name": "Average (median) time psychiatric/mental health patients spent in the emergency department before leaving from the visit. A lower number of minutes is better"
+  },
+  "OP_18c_HIGH_MIN": {
+   "score": "305",
+   "footnote": "25",
+   "start": "10/01/2024",
+   "end": "09/30/2025",
+   "name": "Average (median) time psychiatric/mental health patients spent in the emergency department before leaving from the visit. A lower number of minutes is better (High)"
+  },
+  "OP_18c_LOW_MIN": {
+   "score": "195",
+   "footnote": "25",
+   "start": "10/01/2024",
+   "end": "09/30/2025",
+   "name": "Average (median) time psychiatric/mental health patients spent in the emergency department before leaving from the visit. A lower number of minutes is better (Low)"
+  },
+  "OP_18c_MEDIUM_MIN": {
+   "score": "253",
+   "footnote": "25",
+   "start": "10/01/2024",
+   "end": "09/30/2025",
+   "name": "Average (median) time psychiatric/mental health patients spent in the emergency department before leaving from the visit. A lower number of minutes is better (Moderate)"
+  },
+  "OP_18c_NINETIETH": {
+   "score": "129",
+   "footnote": "25",
+   "start": "10/01/2024",
+   "end": "09/30/2025",
+   "name": "Top ten percent time psychiatric/mental health patients spent in the emergency department before leaving from the visit. A lower number of minutes is better"
+  },
+  "OP_18c_VERY_HIGH_MIN": {
+   "score": "308",
+   "footnote": "25",
+   "start": "10/01/2024",
+   "end": "09/30/2025",
+   "name": "Average (median) time psychiatric/mental health patients spent in the emergency department before leaving from the visit. A lower number of minutes is better (Very High)"
+  },
+  "OP_22": {
+   "score": "2",
+   "footnote": "25, 26",
+   "start": "01/01/2024",
+   "end": "12/31/2024",
+   "name": "Percentage of patients who left the emergency department before being seen Lower percentages are better"
+  },
+  "OP_22_NINETIETH": {
+   "score": "0",
+   "footnote": "25, 26",
+   "start": "01/01/2024",
+   "end": "12/31/2024",
+   "name": "Top ten percent patients who left the emergency department before being seen Lower percentages are better"
+  }
+ },
+ "footnotes": {
+  "1": "The number of cases/patients is too few to report.",
+  "2": "Data submitted were based on a sample of cases/patients.",
+  "3": "Results are based on a shorter time period than required.",
+  "4": "Data suppressed by CMS for one or more quarters.",
+  "5": "Results are not available for this reporting period.",
+  "6": "Fewer than 100 patients completed the CAHPS survey. Use these scores with caution, as the number of surveys may be too low to reliably assess facility performance.",
+  "7": "No cases met the criteria for this measure.",
+  "8": "The lower limit of the confidence interval cannot be calculated if the number of observed infections equals zero.",
+  "9": "No data are available from the state/territory for this reporting period.",
+  "10": "Very few patients were eligible for the CAHPS survey. The scores shown reflect fewer than 50 completed surveys. Use these scores with caution, as the number of surveys may be too low to reliably assess facility performance.",
+  "11": "There were discrepancies in the data collection process.",
+  "12": "This measure does not apply to this hospital for this reporting period.",
+  "13": "Results cannot be calculated for this reporting period.",
+  "14": "The results for this state are combined with nearby states to protect confidentiality.",
+  "15": "The number of cases/patients is too few to report a star rating.",
+  "16": "There are too few measures or measure groups reported to calculate a star rating or measure group score.",
+  "17": "This hospital's star rating only includes data reported on inpatient services.",
+  "18": "This result is not based on performance data; the hospital did not submit data and did not submit an HAI exemption form.",
+  "19": "Data are shown only for hospitals that participate in the Inpatient Quality Reporting (IQR) and Outpatient Quality Reporting (OQR) programs.",
+  "20": "State and national averages do not include Veterans Health Administration (VHA) hospital data.",
+  "21": "Patient survey results for Veterans Health Administration (VHA) hospitals do not represent official HCAHPS results and are not included in state and national averages.",
+  "22": "Overall star ratings are not calculated for Department of Defense (DoD) hospitals.",
+  "23": "The data are based on claims that the hospital or facility submitted to CMS. The hospital or facility has reported discrepancies in their claims data.",
+  "24": "Results for this Veterans Health Administration (VHA) hospital are combined with those from the VHA administrative parent hospital that manages all points of service.",
+  "25": "State and national averages include Veterans Health Administration (VHA) hospital data.",
+  "26": "State and national averages include Department of Defense (DoD) hospital data.",
+  "27": "Retired",
+  "28": "The results are based on the hospital or facility's data submissions. CMS approved the hospital or facility's Extraordinary Circumstances Exception request suggesting that results may be impacted.",
+  "29": "This measure was calculated using partial performance period data due to a CMS-approved exception.",
+  "a": "Maryland hospitals are waived from receiving payment adjustments under the Program.",
+  "*": "For Maryland hospitals, no data are available to calculate a PSI 90 measure result; therefore, no performance decile or points are assigned for Domain 1 and the Total HAC score is dependent on the Domain 2 score.",
+  "**": "This value was calculated using data reported by the hospital in compliance with the requirements outlined for this program and does not take into account information that became available at a later date."
+ },
+ "sources": {
+  "cms_metastore": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items",
+  "cms": {
+   "Hospital General Information": {
+    "url": "https://data.cms.gov/provider-data/sites/default/files/resources/893c372430d9d71a1c52737d01239d47_1785189955/Hospital_General_Information.csv",
+    "identifier": "xubh-q36u",
+    "modified": "2026-07-22",
+    "file": "hospital_general_information.csv"
+   },
+   "Timely and Effective Care - Hospital": {
+    "url": "https://data.cms.gov/provider-data/sites/default/files/resources/0437b5494ac61507ad90f2af6b8085a7_1785189967/Timely_and_Effective_Care-Hospital.csv",
+    "identifier": "yv7e-xc69",
+    "modified": "2026-07-22",
+    "file": "timely_effective_care_hospital.csv"
+   },
+   "Timely and Effective Care - National": {
+    "url": "https://data.cms.gov/provider-data/sites/default/files/resources/b298b4a8c05addc75d1e9c9c9b2e4706_1785189968/Timely_and_Effective_Care-National.csv",
+    "identifier": "isrn-hqyy",
+    "modified": "2026-07-22",
+    "file": "timely_effective_care_national.csv"
+   },
+   "Footnote Crosswalk": {
+    "url": "https://data.cms.gov/provider-data/sites/default/files/resources/f29bb7c812e242f6edfef0a4b7d0eaca_1760630713/Footnote_Crosswalk.csv",
+    "identifier": "y9us-9xdf",
+    "modified": "2025-09-18",
+    "file": "footnote_crosswalk.csv"
+   }
+  },
+  "gazetteer": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_zcta_national.zip",
+  "overpass": {
+   "ithaca": "https://overpass-api.de/api/interpreter",
+   "nyc": "https://overpass-api.de/api/interpreter",
+   "bayarea": "https://overpass-api.de/api/interpreter",
+   "miami": "https://overpass-api.de/api/interpreter",
+   "chicago": "https://overpass-api.de/api/interpreter"
+  },
+  "red_flags": "https://medlineplus.gov/ency/patientinstructions/000593.htm"
+ },
+ "sigma": {
+  "default": 0.6,
+  "low": 0.4,
+  "high": 0.8
+ }
+}

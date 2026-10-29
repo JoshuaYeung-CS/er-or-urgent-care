@@ -1,0 +1,1705 @@
+{
+ "ithaca": {
+  "name": "Ithaca, NY",
+  "zip": "14850",
+  "bbox": [
+   42.3,
+   -76.75,
+   42.62,
+   -76.3
+  ],
+  "osm_timestamp": "2026-10-29T02:22:25Z",
+  "places": [
+   {
+    "name": "WellNow Urgent Care",
+    "lat": 42.43016,
+    "lon": -76.50823,
+    "address": "",
+    "hours": "",
+    "osm": "node/13954070697",
+    "match": "name"
+   }
+  ]
+ },
+ "nyc": {
+  "name": "New York City, NY",
+  "zip": "10016",
+  "bbox": [
+   40.49,
+   -74.27,
+   40.92,
+   -73.68
+  ],
+  "osm_timestamp": "2026-10-29T02:22:25Z",
+  "places": [
+   {
+    "name": "181st Street Urgent Care Center",
+    "lat": 40.84879,
+    "lon": -73.9321,
+    "address": "521 West 181st Street",
+    "hours": "Mo-Fr 09:00-20:00; Sa, Su 09:00-18:00",
+    "osm": "node/11484334629",
+    "match": "name"
+   },
+   {
+    "name": "AFC Urgent Care",
+    "lat": 40.67079,
+    "lon": -73.85595,
+    "address": "",
+    "hours": "Mo-Fr 07:00-21:00, Sa-Su 08:00-19:00",
+    "osm": "node/13186119515",
+    "match": "name"
+   },
+   {
+    "name": "AFC Urgent Care",
+    "lat": 40.85513,
+    "lon": -74.04257,
+    "address": "",
+    "hours": "",
+    "osm": "node/14167544560",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "AFC Urgent Care",
+    "lat": 40.76145,
+    "lon": -74.15924,
+    "address": "276 Passaic Avenue, Kearny",
+    "hours": "",
+    "osm": "node/14236000594",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "AFC Urgent Care",
+    "lat": 40.61666,
+    "lon": -74.25336,
+    "address": "",
+    "hours": "",
+    "osm": "node/14256510576",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "afc Urgent Care",
+    "lat": 40.77759,
+    "lon": -74.0248,
+    "address": "",
+    "hours": "",
+    "osm": "way/598320074",
+    "match": "name"
+   },
+   {
+    "name": "AFC Urgent Care",
+    "lat": 40.82389,
+    "lon": -73.83662,
+    "address": "843 Hutchinson River Parkway, Bronx",
+    "hours": "08:00-20:00",
+    "osm": "way/923783080",
+    "match": "name"
+   },
+   {
+    "name": "AFC Urgent Care",
+    "lat": 40.79761,
+    "lon": -74.14858,
+    "address": "501 Washington Avenue, Belleville",
+    "hours": "",
+    "osm": "way/1323867119",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "AFC Urgent Care Lyndhurst",
+    "lat": 40.81336,
+    "lon": -74.1199,
+    "address": "560 New York Avenue, Lyndhurst",
+    "hours": "",
+    "osm": "node/5599400964",
+    "match": "name"
+   },
+   {
+    "name": "AFC Urgent Care West Orange",
+    "lat": 40.80353,
+    "lon": -74.24994,
+    "address": "464 Eagle Rock Avenue, West Orange",
+    "hours": "Mo-Fr 08:00-20:00; Sa-Su 08:00-17:00",
+    "osm": "node/13619239388",
+    "match": "name"
+   },
+   {
+    "name": "AG Urgent Care",
+    "lat": 40.69082,
+    "lon": -73.92401,
+    "address": "",
+    "hours": "",
+    "osm": "node/11085581232",
+    "match": "name"
+   },
+   {
+    "name": "Atlantic Health Urgent Care",
+    "lat": 40.77866,
+    "lon": -74.18804,
+    "address": "135 Bloomfield Avenue, Bloomfield",
+    "hours": "",
+    "osm": "way/1200996724",
+    "match": "name"
+   },
+   {
+    "name": "Boro Park Urgent Care",
+    "lat": 40.63726,
+    "lon": -73.99,
+    "address": "4502 13th Avenue",
+    "hours": "Su-Th 14:00-22:00; Fr 10:00-16:00; Sa 18:00-24:00",
+    "osm": "node/12732221763",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "Brooklyn Health Medical Alliance Urgent Care",
+    "lat": 40.6893,
+    "lon": -73.98234,
+    "address": "514 Fulton Street, Brooklyn",
+    "hours": "Mo-Fr 08:00-18:00",
+    "osm": "node/6680340123",
+    "match": "name"
+   },
+   {
+    "name": "Centers Urgent Care",
+    "lat": 40.73277,
+    "lon": -73.84978,
+    "address": "64-2 108th Street",
+    "hours": "",
+    "osm": "node/2547526826",
+    "match": "name"
+   },
+   {
+    "name": "Centers Urgent Care",
+    "lat": 40.76806,
+    "lon": -73.92358,
+    "address": "27-15 30th Avenue",
+    "hours": "Mo-Fr 08:00-20:00; Sa, Su 09:00-21:00",
+    "osm": "node/2846913457",
+    "match": "name"
+   },
+   {
+    "name": "Centers Urgent Care",
+    "lat": 40.71375,
+    "lon": -73.90136,
+    "address": "61-22G Fresh Pond Road",
+    "hours": "Mo-Su 09:00-21:00",
+    "osm": "node/5496789551",
+    "match": "name"
+   },
+   {
+    "name": "Centers Urgent Care",
+    "lat": 40.62863,
+    "lon": -74.02878,
+    "address": "7825 3rd Avenue",
+    "hours": "",
+    "osm": "node/11767334771",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "Centers Urgent Care",
+    "lat": 40.57883,
+    "lon": -73.97523,
+    "address": "626 Sheepshead Bay Road, Brooklyn",
+    "hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-21:00",
+    "osm": "node/13281770267",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "Centers Urgent Care of Flatbush",
+    "lat": 40.62578,
+    "lon": -73.95812,
+    "address": "1811 Avenue J, Brooklyn",
+    "hours": "Mo-Fr 09:00-21:00; Sa 11:00-23:00; Su 09:00-21:00",
+    "osm": "way/249778534",
+    "match": "name"
+   },
+   {
+    "name": "Chai Care Urgent Care",
+    "lat": 40.7499,
+    "lon": -73.97192,
+    "address": "",
+    "hours": "",
+    "osm": "node/3829617016",
+    "match": "name"
+   },
+   {
+    "name": "Chai Urgent Care",
+    "lat": 40.69862,
+    "lon": -73.95679,
+    "address": "735 Bedford Avenue",
+    "hours": "",
+    "osm": "node/2568202456",
+    "match": "name"
+   },
+   {
+    "name": "Chai Urgent Care",
+    "lat": 40.52315,
+    "lon": -74.2398,
+    "address": "",
+    "hours": "",
+    "osm": "node/11457584578",
+    "match": "name"
+   },
+   {
+    "name": "Chai Urgent Care",
+    "lat": 40.58174,
+    "lon": -74.09813,
+    "address": "",
+    "hours": "",
+    "osm": "node/12677433984",
+    "match": "name"
+   },
+   {
+    "name": "CityMD",
+    "lat": 40.69139,
+    "lon": -73.98684,
+    "address": "",
+    "hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-18:00",
+    "osm": "node/11386683174",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "CityMD Urgent Care",
+    "lat": 40.66048,
+    "lon": -73.683,
+    "address": "585 Merrick Road, Lynbrook",
+    "hours": "",
+    "osm": "node/6147627042",
+    "match": "name"
+   },
+   {
+    "name": "CityMD Urgent Care",
+    "lat": 40.82734,
+    "lon": -73.92534,
+    "address": "",
+    "hours": "",
+    "osm": "node/8572129663",
+    "match": "name"
+   },
+   {
+    "name": "CityMD Urgent Care",
+    "lat": 40.74262,
+    "lon": -73.91712,
+    "address": "47-16 Greenpoint Avenue",
+    "hours": "Mo-Fr 08:00-20:00; Sa, Su 09:00-18:00",
+    "osm": "node/11565738779",
+    "match": "name"
+   },
+   {
+    "name": "CityMD Urgent Care",
+    "lat": 40.84989,
+    "lon": -73.9347,
+    "address": "New York",
+    "hours": "",
+    "osm": "node/11748490911",
+    "match": "name"
+   },
+   {
+    "name": "CityMD Urgent Care",
+    "lat": 40.83686,
+    "lon": -73.86055,
+    "address": "1470 Metropolitan Avenue, Bronx",
+    "hours": "Mo-Fr 08:00-20:00; Sa-Su 08:00-17:00",
+    "osm": "node/12466456820",
+    "match": "name"
+   },
+   {
+    "name": "CityMD Urgent Care",
+    "lat": 40.52669,
+    "lon": -74.20097,
+    "address": "",
+    "hours": "",
+    "osm": "node/13844954568",
+    "match": "name"
+   },
+   {
+    "name": "CityMD Williamsburg Urgent Care - Brooklyn",
+    "lat": 40.71805,
+    "lon": -73.95828,
+    "address": "154 North 7th Street, Brooklyn",
+    "hours": "",
+    "osm": "node/8105845211",
+    "match": "name"
+   },
+   {
+    "name": "Crown Heights Urgent Care",
+    "lat": 40.66298,
+    "lon": -73.94294,
+    "address": "555 Lefferts Avenue",
+    "hours": "",
+    "osm": "node/2567007543",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "Excel Urgent Care",
+    "lat": 40.74312,
+    "lon": -73.69331,
+    "address": "",
+    "hours": "",
+    "osm": "node/6585320580",
+    "match": "name"
+   },
+   {
+    "name": "First Response Urgent Care & Medical Center",
+    "lat": 40.683,
+    "lon": -73.96397,
+    "address": "979 Fulton Street",
+    "hours": "",
+    "osm": "node/2568092607",
+    "match": "name"
+   },
+   {
+    "name": "Forest Urgent Care",
+    "lat": 40.71915,
+    "lon": -73.8372,
+    "address": "112-01 75th Avenue, Forest Hills",
+    "hours": "10:00-19:00",
+    "osm": "node/9194411120",
+    "match": "name"
+   },
+   {
+    "name": "Friendly Urgent Care",
+    "lat": 40.90062,
+    "lon": -74.00037,
+    "address": "",
+    "hours": "",
+    "osm": "node/11221471408",
+    "match": "name"
+   },
+   {
+    "name": "GoHealth Urgent Care",
+    "lat": 40.54543,
+    "lon": -74.1593,
+    "address": "",
+    "hours": "",
+    "osm": "node/6672990204",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "GoHealth Urgent Care",
+    "lat": 40.58711,
+    "lon": -74.09131,
+    "address": "",
+    "hours": "",
+    "osm": "node/12168864128",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "H+N Urgent Care",
+    "lat": 40.76044,
+    "lon": -73.83039,
+    "address": "38-21 Main Street",
+    "hours": "",
+    "osm": "node/5454118000",
+    "match": "name"
+   },
+   {
+    "name": "HealthNeed Urgent Care",
+    "lat": 40.69758,
+    "lon": -73.96757,
+    "address": "210 Flushing Avenue, Brooklyn",
+    "hours": "",
+    "osm": "node/11875989667",
+    "match": "name"
+   },
+   {
+    "name": "Kinder Pediatric Urgent Care",
+    "lat": 40.8958,
+    "lon": -74.2343,
+    "address": "465 US Hwy 46 West, Totowa",
+    "hours": "Mo-Sa 11:00-22:00; Su 10:00-22:00",
+    "osm": "node/5697442426",
+    "match": "name"
+   },
+   {
+    "name": "Lamd Medical Group and Urgent Care",
+    "lat": 40.74601,
+    "lon": -73.90055,
+    "address": "63-15 Roosevelt Avenue",
+    "hours": "",
+    "osm": "node/2845137415",
+    "match": "name"
+   },
+   {
+    "name": "Medrite Urgent Care",
+    "lat": 40.73307,
+    "lon": -73.98708,
+    "address": "New York",
+    "hours": "",
+    "osm": "node/2592307124",
+    "match": "name"
+   },
+   {
+    "name": "MedRite Urgent Care",
+    "lat": 40.76597,
+    "lon": -73.91976,
+    "address": "30-02 30th Avenue",
+    "hours": "Mo-Fr 08:00-19:00; Sa, Su 09:00-17:00",
+    "osm": "node/2846780756",
+    "match": "name"
+   },
+   {
+    "name": "Medrite Urgent Care",
+    "lat": 40.724,
+    "lon": -73.99352,
+    "address": "",
+    "hours": "",
+    "osm": "node/4828045222",
+    "match": "name"
+   },
+   {
+    "name": "MedRite Urgent Care",
+    "lat": 40.75407,
+    "lon": -73.96935,
+    "address": "919 2nd Avenue",
+    "hours": "Mo-Fr 08:00-22:00; Sa, Su 09:00-19:00",
+    "osm": "node/5858676782",
+    "match": "name"
+   },
+   {
+    "name": "MedRite Urgent Care",
+    "lat": 40.77738,
+    "lon": -73.95189,
+    "address": "1646 2nd Avenue",
+    "hours": "Mo-Th 08:00-18:00, Fr 08:00-17:00, Sa 09:00-16:00",
+    "osm": "node/5907395461",
+    "match": "name"
+   },
+   {
+    "name": "MedRite Urgent Care",
+    "lat": 40.70406,
+    "lon": -73.79875,
+    "address": "160-15 Jamaica Avenue, Jamaica",
+    "hours": "Mo-Fr 08:00-20:00; Sa,Su 09:00-18:00",
+    "osm": "node/6307023903",
+    "match": "name"
+   },
+   {
+    "name": "MedRite Urgent Care",
+    "lat": 40.69336,
+    "lon": -73.96488,
+    "address": "504 Myrtle Avenue",
+    "hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-18:00",
+    "osm": "node/7173294496",
+    "match": "name"
+   },
+   {
+    "name": "Medrite Urgent Care",
+    "lat": 40.67632,
+    "lon": -73.98352,
+    "address": "245 4th Avenue",
+    "hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-18:00",
+    "osm": "node/9725815621",
+    "match": "name"
+   },
+   {
+    "name": "MedRite Urgent Care",
+    "lat": 40.68702,
+    "lon": -73.97985,
+    "address": "68 Flatbush Avenue",
+    "hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-18:00",
+    "osm": "node/10705463649",
+    "match": "name"
+   },
+   {
+    "name": "MEDRITE Urgent Care",
+    "lat": 40.71573,
+    "lon": -74.00941,
+    "address": "139 Chambers Street",
+    "hours": "Mo-Fr 08:00-20:00; Sa, Su 09:00-18:00",
+    "osm": "node/11079239448",
+    "match": "name"
+   },
+   {
+    "name": "MedRite Urgent Care",
+    "lat": 40.74474,
+    "lon": -73.99171,
+    "address": "",
+    "hours": "",
+    "osm": "node/11734409661",
+    "match": "name"
+   },
+   {
+    "name": "MedRite Urgent Care",
+    "lat": 40.76022,
+    "lon": -73.99639,
+    "address": "521 West 42nd Street, New York",
+    "hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-18:00",
+    "osm": "node/12109397471",
+    "match": "name"
+   },
+   {
+    "name": "Medrite Urgent Care",
+    "lat": 40.78286,
+    "lon": -73.98095,
+    "address": "2189 Broadway, New York",
+    "hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-18:00",
+    "osm": "node/12213734581",
+    "match": "name"
+   },
+   {
+    "name": "MedRite Urgent Care",
+    "lat": 40.84424,
+    "lon": -74.12859,
+    "address": "",
+    "hours": "",
+    "osm": "node/12811658137",
+    "match": "name"
+   },
+   {
+    "name": "MiDoctor Urgent Care",
+    "lat": 40.76271,
+    "lon": -73.98975,
+    "address": "",
+    "hours": "",
+    "osm": "node/9821146767",
+    "match": "name"
+   },
+   {
+    "name": "Modern MD Urgent Care",
+    "lat": 40.68672,
+    "lon": -73.8246,
+    "address": "103-42 Lefferts Boulevard, Richmond Hill",
+    "hours": "",
+    "osm": "node/11264932910",
+    "match": "name"
+   },
+   {
+    "name": "ModernMD Urgent Care",
+    "lat": 40.66374,
+    "lon": -73.93182,
+    "address": "436 Utica Avenue",
+    "hours": "",
+    "osm": "node/6855902358",
+    "match": "name"
+   },
+   {
+    "name": "Mount Sinai Union Square",
+    "lat": 40.73483,
+    "lon": -73.98978,
+    "address": "10 Union Square East",
+    "hours": "Mo,Sa,Su,PH 09:00-17:00; Tu-Fr 08:00-20:00",
+    "osm": "node/2562375433",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "Mount Sinai Urgent Care",
+    "lat": 40.78963,
+    "lon": -73.97013,
+    "address": "638 Columbus Avenue, New York",
+    "hours": "Mo-Fr 08:30-20:30; Sa 09:00-15:30; Sa, Su 09:00-17:00",
+    "osm": "node/2436129265",
+    "match": "name"
+   },
+   {
+    "name": "Mount Sinai Urgent Care Center",
+    "lat": 40.73486,
+    "lon": -73.98979,
+    "address": "10 Union Square East",
+    "hours": "Mo-Fr 08:00-20:00; Sa, Su 09:00-17:00",
+    "osm": "node/5858332004",
+    "match": "name"
+   },
+   {
+    "name": "MyDoc Urgent Care",
+    "lat": 40.57917,
+    "lon": -73.97227,
+    "address": "2860 West 5th Street, Brooklyn",
+    "hours": "Mo-Fr 09:00-21:00; Sa,Su 10:00-18:00",
+    "osm": "node/9236322452",
+    "match": "name"
+   },
+   {
+    "name": "New York Doctors Urgent Care",
+    "lat": 40.74515,
+    "lon": -73.98042,
+    "address": "205 Lexington Avenue",
+    "hours": "Mo-Fr 08:00-20:00; Sa, Su 09:00-16:00",
+    "osm": "node/3847048441",
+    "match": "name"
+   },
+   {
+    "name": "NJ Doctors Urgent Care",
+    "lat": 40.8102,
+    "lon": -74.14536,
+    "address": "124 Washington Avenue, Nutley",
+    "hours": "",
+    "osm": "way/1290997005",
+    "match": "name"
+   },
+   {
+    "name": "Northwell GoHealth Urgent Care",
+    "lat": 40.56777,
+    "lon": -74.11087,
+    "address": "",
+    "hours": "",
+    "osm": "node/11366634048",
+    "match": "name"
+   },
+   {
+    "name": "Northwell GoHealth Urgent Care",
+    "lat": 40.6118,
+    "lon": -74.15746,
+    "address": "",
+    "hours": "",
+    "osm": "node/11401136586",
+    "match": "name"
+   },
+   {
+    "name": "Northwell Health + GoHealth Urgent Care",
+    "lat": 40.83843,
+    "lon": -73.70183,
+    "address": "",
+    "hours": "",
+    "osm": "node/12421379666",
+    "match": "name"
+   },
+   {
+    "name": "Northwell Health - GoHealth Urgent Care",
+    "lat": 40.73691,
+    "lon": -73.85952,
+    "address": "58-28 99th Street, Corona",
+    "hours": "",
+    "osm": "node/5344122230",
+    "match": "name"
+   },
+   {
+    "name": "Northwell Health - Gohealth Urgent Care",
+    "lat": 40.74737,
+    "lon": -73.94449,
+    "address": "25-01 Jackson Avenue",
+    "hours": "Mo-Fr 08:00-20:00; Sa, Su 09:00-17:00",
+    "osm": "node/11658443975",
+    "match": "name"
+   },
+   {
+    "name": "Northwell Health GoHealth Urgent Care",
+    "lat": 40.55364,
+    "lon": -74.14415,
+    "address": "",
+    "hours": "",
+    "osm": "node/8447211119",
+    "match": "name"
+   },
+   {
+    "name": "Northwell Health-GoHealth Urgent Care",
+    "lat": 40.78554,
+    "lon": -73.94957,
+    "address": "175 East 96th Street, New York",
+    "hours": "Mo-Su 08:00-24:00",
+    "osm": "node/5640626677",
+    "match": "name"
+   },
+   {
+    "name": "Northwell Health-GoHealth Urgent Care",
+    "lat": 40.77359,
+    "lon": -73.95201,
+    "address": "1555 1st Avenue",
+    "hours": "Mo-Fr 08:00-20:00; Sa,Su 09:00-17:00",
+    "osm": "node/5857686501",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "Northwell Health-GoHealth Urgent Care",
+    "lat": 40.7314,
+    "lon": -73.99406,
+    "address": "41 East 8th Street",
+    "hours": "Mo-Fr 08:00-20:00; Sa, Su 09:00-17:00",
+    "osm": "node/5857793790",
+    "match": "name"
+   },
+   {
+    "name": "Northwell Health-GoHealth Urgent Care",
+    "lat": 40.7447,
+    "lon": -73.99663,
+    "address": "225 West 23rd Street, New York",
+    "hours": "Mo-Fr 08:00-20:00; Sa, Su 09:00-17:00",
+    "osm": "node/5858030719",
+    "match": "name"
+   },
+   {
+    "name": "Northwell Health-GoHealth Urgent Care",
+    "lat": 40.75977,
+    "lon": -73.92038,
+    "address": "37-01 Broadway",
+    "hours": "Mo-Fr 08:00-20:00; Sa, Su 09:00-17:00",
+    "osm": "node/8392457211",
+    "match": "name"
+   },
+   {
+    "name": "NY Urgent Care",
+    "lat": 40.72722,
+    "lon": -73.71384,
+    "address": "",
+    "hours": "",
+    "osm": "node/7647440584",
+    "match": "name"
+   },
+   {
+    "name": "Optum Urgent Care",
+    "lat": 40.68287,
+    "lon": -73.99585,
+    "address": "340 Court Street, Brooklyn",
+    "hours": "",
+    "osm": "node/4194008549",
+    "match": "name"
+   },
+   {
+    "name": "Optum Urgent Care",
+    "lat": 40.7815,
+    "lon": -73.95172,
+    "address": "1601 3rd Avenue",
+    "hours": "Mo-Fr 08:00-20:00; Sa, Su 08:00-17:00",
+    "osm": "node/5856247825",
+    "match": "name"
+   },
+   {
+    "name": "Optum Urgent Care",
+    "lat": 40.64922,
+    "lon": -73.83781,
+    "address": "164-50 Cross Bay Boulevard",
+    "hours": "",
+    "osm": "way/285891997",
+    "match": "name"
+   },
+   {
+    "name": "Personal Injury Urgent Care",
+    "lat": 40.68082,
+    "lon": -73.76356,
+    "address": "129-11 Merrick Boulevard",
+    "hours": "",
+    "osm": "node/2869588659",
+    "match": "name"
+   },
+   {
+    "name": "PM Pediatric Urgent Care",
+    "lat": 40.73629,
+    "lon": -73.71448,
+    "address": "253-11 Hillside Avenue",
+    "hours": "",
+    "osm": "way/248532851",
+    "match": "name"
+   },
+   {
+    "name": "Pro Health Circle Urgent Care",
+    "lat": 40.51621,
+    "lon": -74.23404,
+    "address": "",
+    "hours": "",
+    "osm": "node/7779481133",
+    "match": "name"
+   },
+   {
+    "name": "Pro Health Urgent Care",
+    "lat": 40.6934,
+    "lon": -73.99076,
+    "address": "26 Court Street",
+    "hours": "Mo-Fr 09:00-21:00; Sa, Su 09:00-18:00",
+    "osm": "node/5802138857",
+    "match": "name"
+   },
+   {
+    "name": "ProHEALTH Circle Urgent Care",
+    "lat": 40.6071,
+    "lon": -74.16119,
+    "address": "",
+    "hours": "",
+    "osm": "node/9526028894",
+    "match": "name"
+   },
+   {
+    "name": "ProHEALTH Urgent Care",
+    "lat": 40.7369,
+    "lon": -73.97906,
+    "address": "348 East 23rd Street",
+    "hours": "Mo-Fr 08:00-20:00",
+    "osm": "node/5856260967",
+    "match": "name"
+   },
+   {
+    "name": "ProHEALTH Urgent Care",
+    "lat": 40.54305,
+    "lon": -74.16421,
+    "address": "3894 Richmond Avenue, Staten Island",
+    "hours": "",
+    "osm": "node/6678050876",
+    "match": "name"
+   },
+   {
+    "name": "Prompt-MD Urgent Care Center",
+    "lat": 40.85256,
+    "lon": -73.96862,
+    "address": "2059 Hudson Street, Fort Lee",
+    "hours": "Mo-Fr 08:00-15:00; Sa 09:00-03:00",
+    "osm": "node/13086119372",
+    "match": "name"
+   },
+   {
+    "name": "Prompt-MD Urgent Care Center Of Hoboken",
+    "lat": 40.7381,
+    "lon": -74.03504,
+    "address": "309 1st Street, Hoboken",
+    "hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-15:00",
+    "osm": "node/295802851",
+    "match": "name"
+   },
+   {
+    "name": "Prompt-MD Urgent Care Center Of Jersey City",
+    "lat": 40.7148,
+    "lon": -74.04377,
+    "address": "201 Morris Street, Jersey City",
+    "hours": "Mo-Fr 08:00-19:00; Sa-Su 09:00-15:00",
+    "osm": "node/13111208501",
+    "match": "name"
+   },
+   {
+    "name": "Proxi Medical Urgent Care",
+    "lat": 40.66598,
+    "lon": -73.95658,
+    "address": "",
+    "hours": "Mo-Fr 10:00-19:00; Sa 10:00-15:00",
+    "osm": "node/9419303531",
+    "match": "name"
+   },
+   {
+    "name": "Quality First Urgent Care",
+    "lat": 40.61665,
+    "lon": -73.97892,
+    "address": "6010 Bay Parkway",
+    "hours": "",
+    "osm": "node/7041136087",
+    "match": "name"
+   },
+   {
+    "name": "Sincere Urgent Care",
+    "lat": 40.64258,
+    "lon": -74.01272,
+    "address": "5th Avenue, Brooklyn",
+    "hours": "",
+    "osm": "node/10299194719",
+    "match": "name"
+   },
+   {
+    "name": "SUNY Downstate at Bay Ridge",
+    "lat": 40.61553,
+    "lon": -74.02284,
+    "address": "9036 7th Avenue, Brooklyn",
+    "hours": "10:00-21:00",
+    "osm": "node/5414667928",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "Swift Urgent Care",
+    "lat": 40.64277,
+    "lon": -73.97905,
+    "address": "",
+    "hours": "Mo-Fr 08:00-20:00; Sa-Su 12:00-18:00",
+    "osm": "node/9750049374",
+    "match": "name"
+   },
+   {
+    "name": "UMD Urgent Care",
+    "lat": 40.74301,
+    "lon": -73.95503,
+    "address": "",
+    "hours": "",
+    "osm": "node/12991016949",
+    "match": "name"
+   },
+   {
+    "name": "Union Medical Urgent Care",
+    "lat": 40.72861,
+    "lon": -73.78257,
+    "address": "186-06 Union Turnpike, Fresh Meadows",
+    "hours": "Mo-Fr 08:00-22:00; Sa,Su 09:00-22:00",
+    "osm": "node/2550990535",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "Union Medical Urgent Care",
+    "lat": 40.72809,
+    "lon": -73.78367,
+    "address": "184-20 Union Turnpike, Fresh Meadows",
+    "hours": "",
+    "osm": "node/11581249313",
+    "match": "name"
+   },
+   {
+    "name": "Urgent Care",
+    "lat": 40.70877,
+    "lon": -73.81822,
+    "address": "Queens Boulevard",
+    "hours": "",
+    "osm": "node/2870834157",
+    "match": "name"
+   },
+   {
+    "name": "Urgent Care",
+    "lat": 40.7631,
+    "lon": -73.77053,
+    "address": "41-19 Bell Boulevard",
+    "hours": "",
+    "osm": "node/5344120986",
+    "match": "name"
+   },
+   {
+    "name": "Urgent Care",
+    "lat": 40.70007,
+    "lon": -73.9084,
+    "address": "55-05 Myrtle Avenue",
+    "hours": "",
+    "osm": "node/5344122644",
+    "match": "name"
+   },
+   {
+    "name": "Urgent Care",
+    "lat": 40.83485,
+    "lon": -73.87033,
+    "address": "1729 East 174th Street",
+    "hours": "",
+    "osm": "node/5548942521",
+    "match": "name"
+   },
+   {
+    "name": "Urgent Care for Kids",
+    "lat": 40.70463,
+    "lon": -73.91636,
+    "address": "161 Stanhope Street, Brooklyn",
+    "hours": "",
+    "osm": "node/5465481696",
+    "match": "name"
+   },
+   {
+    "name": "Urgent Care of New York",
+    "lat": 40.90392,
+    "lon": -73.86763,
+    "address": "",
+    "hours": "",
+    "osm": "node/11867312883",
+    "match": "name"
+   },
+   {
+    "name": "Zipcare Urgent Care",
+    "lat": 40.78771,
+    "lon": -73.94432,
+    "address": "1976 2nd Avenue, New York",
+    "hours": "Mo-Fr, Su 08:00-20:00",
+    "osm": "node/9391198545",
+    "match": "name"
+   }
+  ]
+ },
+ "bayarea": {
+  "name": "Fremont / Bay Area, CA",
+  "zip": "94539",
+  "bbox": [
+   37.25,
+   -122.3,
+   37.85,
+   -121.75
+  ],
+  "osm_timestamp": "2026-10-29T02:23:30Z",
+  "places": [
+   {
+    "name": "Action Urgent Care",
+    "lat": 37.3065,
+    "lon": -121.81085,
+    "address": "1680 East Capitol Expressway, San Jose",
+    "hours": "",
+    "osm": "node/3711250770",
+    "match": "name"
+   },
+   {
+    "name": "Action Urgent Care",
+    "lat": 37.32285,
+    "lon": -121.914,
+    "address": "1432 West San Carlos Street, San Jose",
+    "hours": "Mo-Sa 09:00-21:00; Su 09:00-19:00",
+    "osm": "node/4947716507",
+    "match": "urgent_care tag"
+   },
+   {
+    "name": "Action Urgent Care",
+    "lat": 37.2918,
+    "lon": -121.98611,
+    "address": "",
+    "hours": "",
+    "osm": "node/10958686837",
+    "match": "name"
+   },
+   {
+    "name": "AFC Urgent Care",
+    "lat": 37.69914,
+    "lon": -121.90434,
+    "address": "5311 Hopyard Road",
+    "hours": "",
+    "osm": "way/358946547",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "Carbon Health",
+    "lat": 37.31934,
+    "lon": -121.94945,
+    "address": "377 Santana Row, San Jose",
+    "hours": "Mo-Su 09:00-19:00",
+    "osm": "node/8715534497",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "Carbon Health",
+    "lat": 37.38154,
+    "lon": -121.97499,
+    "address": "2712 Augustine Drive, Santa Clara",
+    "hours": "Mo-Su 09:00-19:00",
+    "osm": "node/9951920082",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "Carbon Health",
+    "lat": 37.25892,
+    "lon": -121.87466,
+    "address": "5120 Cherry Avenue, San Jose",
+    "hours": "Mo-Su 09:00-19:00",
+    "osm": "node/12242162362",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "Carbon Health",
+    "lat": 37.29147,
+    "lon": -121.93063,
+    "address": "1760 South Bascom Avenue, Campbell",
+    "hours": "Mo-Su 09:00-19:00",
+    "osm": "node/12242189431",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "Carbon Health",
+    "lat": 37.40104,
+    "lon": -122.11237,
+    "address": "2580 West El Camino Real, Mountain View",
+    "hours": "08:00-18:00",
+    "osm": "node/12554760943",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "CityHealth Urgent Care",
+    "lat": 37.71625,
+    "lon": -122.14371,
+    "address": "13690 East 14th Street, San Leandro",
+    "hours": "",
+    "osm": "node/6573900805",
+    "match": "name"
+   },
+   {
+    "name": "CityHealth Urgent Care",
+    "lat": 37.80509,
+    "lon": -122.27354,
+    "address": "",
+    "hours": "",
+    "osm": "node/7316784639",
+    "match": "name"
+   },
+   {
+    "name": "Concentra Urgent Care",
+    "lat": 37.55145,
+    "lon": -121.98046,
+    "address": "3161 Walnut Avenue, Fremont",
+    "hours": "Mo-Fr 08:00-00:00; Sa 09:00-17:00",
+    "osm": "node/3676718592",
+    "match": "name"
+   },
+   {
+    "name": "Concentra Urgent Care",
+    "lat": 37.79496,
+    "lon": -122.27529,
+    "address": "384 Embarcadero West, Oakland",
+    "hours": "Mo-Fr 08:00-17:00",
+    "osm": "node/3771490208",
+    "match": "name"
+   },
+   {
+    "name": "Concentra Urgent Care",
+    "lat": 37.30748,
+    "lon": -121.86601,
+    "address": "1901 Monterey Road, San Jose",
+    "hours": "",
+    "osm": "node/8645358650",
+    "match": "name"
+   },
+   {
+    "name": "Concentra Urgent Care",
+    "lat": 37.30785,
+    "lon": -121.86736,
+    "address": "1887 Monterey Road, San Jose",
+    "hours": "",
+    "osm": "node/8813101259",
+    "match": "name"
+   },
+   {
+    "name": "Concentra Urgent Care",
+    "lat": 37.59166,
+    "lon": -122.03577,
+    "address": "",
+    "hours": "",
+    "osm": "node/12076220596",
+    "match": "name"
+   },
+   {
+    "name": "Concentra Urgent Care",
+    "lat": 37.37458,
+    "lon": -121.97662,
+    "address": "2737 Walsh Avenue, Santa Clara",
+    "hours": "",
+    "osm": "relation/19620312",
+    "match": "name"
+   },
+   {
+    "name": "Dublin Medical Offices and Cancer Center",
+    "lat": 37.7033,
+    "lon": -121.85865,
+    "address": "3100 Dublin Boulevard, Dublin",
+    "hours": "",
+    "osm": "node/6816256205",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "El Camino Health Urgent Care",
+    "lat": 37.38803,
+    "lon": -122.08784,
+    "address": "1150 West El Camino Real, Mountain View",
+    "hours": "Mo-Su 08:00-18:00",
+    "osm": "node/5599450880",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "El Camino Health Urgent Care",
+    "lat": 37.41704,
+    "lon": -121.95417,
+    "address": "4150 North 1st Street, San Jose",
+    "hours": "Mo-Sa 08:00-18:00",
+    "osm": "node/10713346811",
+    "match": "name"
+   },
+   {
+    "name": "El Camino Health Urgent Care",
+    "lat": 37.32535,
+    "lon": -122.01204,
+    "address": "",
+    "hours": "",
+    "osm": "node/12359860088",
+    "match": "name"
+   },
+   {
+    "name": "GetWell Urgent Care",
+    "lat": 37.35298,
+    "lon": -121.97799,
+    "address": "2803 El Camino Real, Santa Clara",
+    "hours": "",
+    "osm": "node/14073411222",
+    "match": "name"
+   },
+   {
+    "name": "Golden Gate Urgent Care",
+    "lat": 37.82488,
+    "lon": -122.25416,
+    "address": "",
+    "hours": "",
+    "osm": "node/7817915586",
+    "match": "name"
+   },
+   {
+    "name": "Instant Urgent Care",
+    "lat": 37.35161,
+    "lon": -121.99222,
+    "address": "3466 El Camino Real, Santa Clara",
+    "hours": "Mo,Tu,Th 09:00-18:00; We,Fr 09:00-19:00; Sa-Su 09:00-17:00",
+    "osm": "node/12117621246",
+    "match": "name"
+   },
+   {
+    "name": "Progressive Urgent Care",
+    "lat": 37.68664,
+    "lon": -122.07394,
+    "address": "22101 Redwood Road",
+    "hours": "",
+    "osm": "way/478174702",
+    "match": "name"
+   },
+   {
+    "name": "San Carlos Center Urgent Care",
+    "lat": 37.51498,
+    "lon": -122.26042,
+    "address": "301 Industrial Road, San Carlos",
+    "hours": "Mo-Fr 08:00-20:00; Sa-Su 08:00-17:00",
+    "osm": "node/5433855996",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "San Ramon Urgent Care & Clinic",
+    "lat": 37.73019,
+    "lon": -121.93013,
+    "address": "",
+    "hours": "",
+    "osm": "node/10292137176",
+    "match": "name"
+   },
+   {
+    "name": "Stanford Health Care - ValleyCare Livermore Urgent Care",
+    "lat": 37.67842,
+    "lon": -121.78064,
+    "address": "1133 East Stanley Boulevard",
+    "hours": "Mo-Su 10:00-20:00",
+    "osm": "way/35578095",
+    "match": "name"
+   },
+   {
+    "name": "Sutter Pediatric Urgent Care",
+    "lat": 37.37638,
+    "lon": -122.06412,
+    "address": "701 East El Camino Real, Mountain View",
+    "hours": "Mo-Su 08:00-20:00",
+    "osm": "node/14143330361",
+    "match": "name"
+   },
+   {
+    "name": "Sutter Urgent Care",
+    "lat": 37.37641,
+    "lon": -122.06421,
+    "address": "701 East El Camino Real, Mountain View",
+    "hours": "Mo 08:00-17:00; Tu-Su 08:00-20:00",
+    "osm": "node/3836342987",
+    "match": "name"
+   },
+   {
+    "name": "Sutter Urgent Care - Santa Clara",
+    "lat": 37.39114,
+    "lon": -121.97124,
+    "address": "2441 Mission College Boulevard",
+    "hours": "Mo-Su 09:00-20:00",
+    "osm": "way/54383142",
+    "match": "name"
+   },
+   {
+    "name": "Washington Health Urgent Care",
+    "lat": 37.55502,
+    "lon": -121.98163,
+    "address": "2682",
+    "hours": "",
+    "osm": "node/2509820301",
+    "match": "name"
+   }
+  ]
+ },
+ "miami": {
+  "name": "Miami, FL",
+  "zip": "33130",
+  "bbox": [
+   25.55,
+   -80.5,
+   26.05,
+   -80.1
+  ],
+  "osm_timestamp": "2026-10-29T02:24:32Z",
+  "places": [
+   {
+    "name": "+MEDRITE - Urgent Care",
+    "lat": 25.81366,
+    "lon": -80.13017,
+    "address": "542 41st Street, Miami Beach",
+    "hours": "Mo-Su 09:00-21:00",
+    "osm": "node/13785396187",
+    "match": "name"
+   },
+   {
+    "name": "+MEDRITE Urgent Care",
+    "lat": 25.93453,
+    "lon": -80.12299,
+    "address": "17100 Collins Avenue, Sunny Isles Beach",
+    "hours": "Mo-Su 09:00-21:00",
+    "osm": "node/6027314279",
+    "match": "name"
+   },
+   {
+    "name": "American Urgent Care",
+    "lat": 25.92868,
+    "lon": -80.19413,
+    "address": "301 Northeast 167th Street, North Miami Beach",
+    "hours": "",
+    "osm": "node/6090327756",
+    "match": "name"
+   },
+   {
+    "name": "Baptist Health Urgent Care",
+    "lat": 25.71549,
+    "lon": -80.43083,
+    "address": "",
+    "hours": "Mo-Fr 09:00-21:00, Sa,Su 09:00-17:00; PH unknown",
+    "osm": "node/10757756151",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "Baptist Health Urgent Care",
+    "lat": 25.66091,
+    "lon": -80.32521,
+    "address": "11805 South Dixie Highway, Pinecrest",
+    "hours": "09:00-21:00",
+    "osm": "node/13948566718",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "Baptist Medical Plaza",
+    "lat": 25.81217,
+    "lon": -80.35774,
+    "address": "9915 Northwest 41st Street, Doral",
+    "hours": "07:00-23:00",
+    "osm": "node/2612296886",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "FastCare Urgent Care",
+    "lat": 25.81402,
+    "lon": -80.13402,
+    "address": "825 Arthur Godfrey Road, Miami Beach",
+    "hours": "",
+    "osm": "way/255449579",
+    "match": "name"
+   },
+   {
+    "name": "MD Now",
+    "lat": 25.65609,
+    "lon": -80.32784,
+    "address": "",
+    "hours": "",
+    "osm": "node/12205863051",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "MD Now Urgent Care",
+    "lat": 25.69488,
+    "lon": -80.30038,
+    "address": "6605 South Dixie Highway, Miami",
+    "hours": "",
+    "osm": "node/6025987191",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "MD Now Urgent Care",
+    "lat": 25.89143,
+    "lon": -80.16274,
+    "address": "12555 Biscayne Boulevard, North Miami",
+    "hours": "Mo-Su 08:00-20:00",
+    "osm": "node/6027563620",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "MD Now Urgent Care",
+    "lat": 25.59169,
+    "lon": -80.35713,
+    "address": "18851 South Dixie Highway, Cutler Bay",
+    "hours": "Mo-Su 08:00-20:00",
+    "osm": "node/6035708623",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "MD Now Urgent Care",
+    "lat": 25.94476,
+    "lon": -80.16473,
+    "address": "1770 Northeast Miami Gardens Drive, Miami",
+    "hours": "",
+    "osm": "node/6088831451",
+    "match": "name"
+   },
+   {
+    "name": "MD Now Urgent Care",
+    "lat": 25.68553,
+    "lon": -80.42212,
+    "address": "14085 Southwest 88th Street, Miami",
+    "hours": "",
+    "osm": "node/9960704870",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "MD Now Urgent Care",
+    "lat": 25.98586,
+    "lon": -80.14348,
+    "address": "415 East Hallandale Beach Boulevard, Hallandale Beach",
+    "hours": "Mo-Su 08:00-20:00",
+    "osm": "node/14081250094",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "MD Now Urgent Care",
+    "lat": 26.03247,
+    "lon": -80.20878,
+    "address": "",
+    "hours": "",
+    "osm": "way/385285141",
+    "match": "name"
+   },
+   {
+    "name": "Memorial Pembroke 24/7 Care Center",
+    "lat": 26.00259,
+    "lon": -80.26211,
+    "address": "801 South Douglas Road, Pembroke Pines",
+    "hours": "24/7",
+    "osm": "node/358742366",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "Miami Beach Urgent Care",
+    "lat": 25.78453,
+    "lon": -80.14067,
+    "address": "1329 Alton Road, Miami Beach",
+    "hours": "Mo-Su 08:00-20:00",
+    "osm": "node/6076485314",
+    "match": "name"
+   },
+   {
+    "name": "RiteCare Urgent Care Medical Center",
+    "lat": 25.867,
+    "lon": -80.30182,
+    "address": "915 West 49th Street, Hialeah",
+    "hours": "Mo-Su 09:00-20:00",
+    "osm": "node/6708168274",
+    "match": "name"
+   },
+   {
+    "name": "UHealth Jackson Urgent Care",
+    "lat": 25.59052,
+    "lon": -80.35905,
+    "address": "18922 South Dixie Highway, Cutler Bay",
+    "hours": "",
+    "osm": "way/435375847",
+    "match": "name"
+   },
+   {
+    "name": "UHealth Jackson Urgent Care",
+    "lat": 25.89659,
+    "lon": -80.16214,
+    "address": "13120 Biscayne Boulevard, North Miami",
+    "hours": "Mo-Su 08:00-20:00",
+    "osm": "way/435748054",
+    "match": "name"
+   }
+  ]
+ },
+ "chicago": {
+  "name": "Chicago, IL",
+  "zip": "60611",
+  "bbox": [
+   41.64,
+   -87.95,
+   42.07,
+   -87.52
+  ],
+  "osm_timestamp": "2026-10-29T02:25:32Z",
+  "places": [
+   {
+    "name": "AFC Urgent Care",
+    "lat": 42.04045,
+    "lon": -87.79622,
+    "address": "6841 West Dempster Street, Morton Grove",
+    "hours": "",
+    "osm": "node/9467094553",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "AFC Urgent Care",
+    "lat": 41.85078,
+    "lon": -87.74283,
+    "address": "4769 West Cermak Road, Cicero",
+    "hours": "",
+    "osm": "node/14086441529",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "AFC Urgent Care Primary Care",
+    "lat": 41.76172,
+    "lon": -87.94374,
+    "address": "",
+    "hours": "",
+    "osm": "node/10837806851",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "All In One Urgent Care",
+    "lat": 41.73358,
+    "lon": -87.77881,
+    "address": "8707 South Ridgeland Avenue, Oak Lawn",
+    "hours": "",
+    "osm": "node/13627182925",
+    "match": "name"
+   },
+   {
+    "name": "Concentra Urgent Care",
+    "lat": 41.73136,
+    "lon": -87.79746,
+    "address": "8755 Harlem Avenue, Bridgeview",
+    "hours": "",
+    "osm": "node/12585965882",
+    "match": "name"
+   },
+   {
+    "name": "Concentra Urgent Care",
+    "lat": 41.92993,
+    "lon": -87.87943,
+    "address": "10137 West Grand Avenue, Franklin Park",
+    "hours": "",
+    "osm": "node/13947966930",
+    "match": "name"
+   },
+   {
+    "name": "Concentra Urgent Care",
+    "lat": 41.95426,
+    "lon": -87.88608,
+    "address": "4200 North Mannheim Road, Schiller Park",
+    "hours": "",
+    "osm": "way/403555678",
+    "match": "name"
+   },
+   {
+    "name": "Concentra Urgent Care Center",
+    "lat": 41.88592,
+    "lon": -87.65801,
+    "address": "1230 West Lake Street, Chicago",
+    "hours": "",
+    "osm": "way/210269815",
+    "match": "name"
+   },
+   {
+    "name": "ELITE MED URGENT CARE PLLC",
+    "lat": 41.71568,
+    "lon": -87.81958,
+    "address": "9634 South Roberts Road, Hickory Hills",
+    "hours": "Mo-Su 08:00-22:00",
+    "osm": "node/14042424645",
+    "match": "healthcare:speciality"
+   },
+   {
+    "name": "Emergency Room",
+    "lat": 41.87075,
+    "lon": -87.6768,
+    "address": "",
+    "hours": "",
+    "osm": "way/747424616",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "Family Doc Urgent Care",
+    "lat": 41.76381,
+    "lon": -87.58559,
+    "address": "",
+    "hours": "",
+    "osm": "node/14104244501",
+    "match": "name"
+   },
+   {
+    "name": "Family Urgent Care",
+    "lat": 41.91186,
+    "lon": -87.64812,
+    "address": "",
+    "hours": "",
+    "osm": "node/13563220064",
+    "match": "name"
+   },
+   {
+    "name": "Loyola Center for Health at Burr Ridge",
+    "lat": 41.75947,
+    "lon": -87.9142,
+    "address": "6800 North Frontage Road, Burr Ridge",
+    "hours": "Mo-Fr 08:00-20:00; Sa,Su,PH 08:00-15:00",
+    "osm": "way/560843716",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "Melrose Park Urgent Care Walk In Clinic",
+    "lat": 41.89139,
+    "lon": -87.85678,
+    "address": "106 Broadway Avenue, Melrose Park",
+    "hours": "",
+    "osm": "node/4207792403",
+    "match": "name"
+   },
+   {
+    "name": "Metro Urgent Care",
+    "lat": 41.96094,
+    "lon": -87.70964,
+    "address": "3233 West Montrose Avenue",
+    "hours": "",
+    "osm": "way/163944635",
+    "match": "name"
+   },
+   {
+    "name": "Midwest Express Clinic Urgent Care",
+    "lat": 41.72345,
+    "lon": -87.68281,
+    "address": "2508 West 94th Street, Evergreen Park",
+    "hours": "",
+    "osm": "node/13585084409",
+    "match": "name"
+   },
+   {
+    "name": "Midwest Express Clinic Urgent Care",
+    "lat": 41.65938,
+    "lon": -87.66139,
+    "address": "12850 South Ashland Avenue, Calumet Park",
+    "hours": "",
+    "osm": "node/13598695459",
+    "match": "name"
+   },
+   {
+    "name": "Midwest Express Clinic Urgent Care",
+    "lat": 41.85237,
+    "lon": -87.68882,
+    "address": "2504 West Cermak Road",
+    "hours": "Mo-Fr 08:00-20:00; Sa-Su 08:00-18:00",
+    "osm": "node/14200462601",
+    "match": "name"
+   },
+   {
+    "name": "Mini Th\u01b0\u01a1ng X\u00e1",
+    "lat": 41.97296,
+    "lon": -87.65758,
+    "address": "",
+    "hours": "",
+    "osm": "node/7152419172",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "OSF On Call Urgent Care",
+    "lat": 41.72095,
+    "lon": -87.77967,
+    "address": "",
+    "hours": "",
+    "osm": "node/12162032743",
+    "match": "name"
+   },
+   {
+    "name": "Outpatient Center in Lincoln Park",
+    "lat": 41.92834,
+    "lon": -87.64156,
+    "address": "2515 North Clark Street, Chicago",
+    "hours": "",
+    "osm": "way/210321576",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "Physicians Immediate Care",
+    "lat": 41.91106,
+    "lon": -87.6326,
+    "address": "121 West North Avenue, Chicago",
+    "hours": "Mo-Fr 08:00-20:00; Sa-Su 08:00-16:00",
+    "osm": "node/2795506845",
+    "match": "urgent_care=yes"
+   },
+   {
+    "name": "WellNow Urgent Care",
+    "lat": 41.96112,
+    "lon": -87.80782,
+    "address": "4460 North Harlem Avenue, Norridge",
+    "hours": "",
+    "osm": "node/10679985061",
+    "match": "name"
+   }
+  ]
+ }
+}

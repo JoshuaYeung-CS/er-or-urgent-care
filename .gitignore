@@ -1,0 +1,7 @@
+.venv/
+data/raw/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mpl/
+.DS_Store
